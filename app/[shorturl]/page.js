@@ -11,8 +11,8 @@ export default async function Page({ params }) {
   const doc = await collection.findOne({ shorturl });
 
   if (doc.url) {
-    redirect(doc.url);   
+   return redirect(doc.url);   
   }
 
-  redirect(process.env.NEXT_PUBLIC_HOST); // fallback
+  return redirect(process.env.NEXT_PUBLIC_HOST); // fallback
 }
