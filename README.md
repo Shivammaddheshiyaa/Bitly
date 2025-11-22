@@ -34,7 +34,3 @@ It converts long URLs into short, clean, and shareable links using custom short 
 7. Returns the generated short link  
 8. When someone visits `shorturl` → user is redirected to the original long URL
 
----
-
-## 📂 Project Structure
-.
