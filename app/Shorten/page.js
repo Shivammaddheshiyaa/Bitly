@@ -50,7 +50,7 @@ fetch("/api/generate", requestOptions)
             </div>
 
             {generated && 
-            <> <span className='font-bold text-lg text-center'>Your Link:</span>
+            <> <span className='font-bold text-lg text-center'>Your Link::</span>
               <code className='text-center text-blue-600'> <Link target="_blank" href = {generated}>{generated}</Link>
                 </code> </>}
         </div>
